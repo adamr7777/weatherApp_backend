@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 
 
 const fortunesSchema = new Schema({
-    type: [String]
+    data: [String]
 });
 
-module.exports = mongoose.model('FortunesCookie', fortunesSchema); 
+module.exports = mongoose.model('Fortunes', fortunesSchema); 
