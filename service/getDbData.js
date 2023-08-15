@@ -1,9 +1,10 @@
 
-const FortunesArray = require('../model/FortunesArray');
+const FortunesCookie= require('../model/FortunesArray');
 
 const getDbData = async ()=> {
     try {
-        const data = await FortunesArray.findOne(); 
+    const data = await FortunesCookie.find({}); 
+        console.log(data);
         return data;
     } catch(err) {
         console.error(err);

@@ -8,4 +8,4 @@ const fortunesSchema = new Schema({
     type: [String]
 });
 
-module.exports = mongoose.model('FortunesArray', fortunesSchema); 
+module.exports = mongoose.model('FortunesCookie', fortunesSchema); 
